@@ -1,0 +1,31 @@
+/* styles.css */
+
+.frame {
+    width: 1080px;
+    height: 1080px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 960px;
+    height: 960px;
+}
+
+.square {
+    width: 58px;
+    height: 58px;
+    border: 1px solid black;
+}
+
+.newSquare {
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.button {
+    padding: 5px;
+    margin: 10px;
+}
